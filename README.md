@@ -292,9 +292,9 @@ This project was published at:
 | **Prathviraj Chavan** | Developer & Researcher | mr.prathvirajchavan@gmail.com | [prathvirajchavan](https://www.linkedin.com/in/prathvirajchavan/) |
 | **Pooja Choudhary** | Developer & Researcher | poojachoudhary1178@gmail.com | [pooja-choudhary1178](https://www.linkedin.com/in/pooja-choudhary1178/) |
 | **Shubhi Upadhyay** | Developer & Researcher | shubhiupadhyay1516@gmail.com | [shubhii1516](https://www.linkedin.com/in/shubhii1516/) |
-| **Saniya Devarshi** | Developer & Researcher | saniyadevarshi004@gmail.com | [saniya-devarshi0404](https://www.linkedin.com/in/saniya-devarshi0404/) |
-| **Sumitra Sureliya** | Teaching Assistant (Guide) | sumitra121039@gmail.com | — |
-| **Awanit Kumar** | Associate Professor (Mentor) | itsawanitkumar@gmail.com | — |
+| **Saniya Devarshi** | Developer & Researcher | saniyadevarshi004@gmail.com | [saniya-devarshi0404](https://www.linkedin.com/in/saniya-devarshi04/) |
+| **Sumitra Sureliya** | Teaching Assistant (Guide/Mentor) | sumitra121039@gmail.com | — |
+| **Awanit Kumar** | Associate Professor (Guide) | itsawanitkumar@gmail.com | — |
 
 All student researchers are from the **School of Computer Studies, Sri Balaji University, Pune, Maharashtra, India.**
 
