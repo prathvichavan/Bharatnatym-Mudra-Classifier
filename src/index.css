@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Vibrant Indian classical dance palette */
+    --background: 40 30% 98%;
+    --foreground: 0 5% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 5% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 5% 10%;
+
+    /* Rich crimson primary - more vibrant */
+    --primary: 350 75% 45%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 350 65% 55%;
+
+    /* Royal purple secondary - deeper and richer */
+    --secondary: 275 60% 40%;
+    --secondary-foreground: 0 0% 100%;
+    --secondary-light: 275 50% 50%;
+
+    /* Warm muted tones */
+    --muted: 40 25% 95%;
+    --muted-foreground: 0 5% 40%;
+
+    /* Bright gold accent - more luminous */
+    --accent: 45 95% 50%;
+    --accent-foreground: 0 5% 10%;
+    --accent-light: 45 100% 60%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 40 20% 90%;
+    --input: 40 20% 90%;
+    --ring: 350 75% 45%;
+
+    --radius: 1rem;
+    
+    /* Enhanced dance theme colors */
+    --maroon: 350 75% 45%;
+    --maroon-light: 350 65% 55%;
+    --maroon-dark: 350 80% 35%;
+    --purple: 275 60% 40%;
+    --purple-light: 275 50% 50%;
+    --purple-dark: 275 70% 30%;
+    --gold: 45 95% 50%;
+    --gold-light: 45 100% 60%;
+    --gold-dark: 45 90% 40%;
+    --cream: 40 30% 98%;
+    --cream-dark: 40 25% 95%;
+    --teal: 180 70% 45%;
+    --teal-light: 180 60% 55%;
+    --orange: 25 90% 55%;
+    --orange-light: 25 95% 65%;
+    
+    /* Sidebar */
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 0 5% 8%;
+    --foreground: 40 30% 98%;
+
+    --card: 0 5% 12%;
+    --card-foreground: 40 30% 98%;
+
+    --popover: 0 5% 12%;
+    --popover-foreground: 40 30% 98%;
+
+    --primary: 350 75% 55%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 350 65% 65%;
+
+    --secondary: 275 60% 50%;
+    --secondary-foreground: 0 0% 100%;
+    --secondary-light: 275 50% 60%;
+
+    --muted: 0 5% 18%;
+    --muted-foreground: 40 20% 75%;
+
+    --accent: 45 95% 55%;
+    --accent-foreground: 0 5% 10%;
+    --accent-light: 45 100% 65%;
+
+    --destructive: 0 62.8% 50.6%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 5% 20%;
+    --input: 0 5% 20%;
+    --ring: 350 75% 55%;
+    
+    --maroon: 350 75% 55%;
+    --maroon-light: 350 65% 65%;
+    --maroon-dark: 350 80% 45%;
+    --purple: 275 60% 50%;
+    --purple-light: 275 50% 60%;
+    --purple-dark: 275 70% 40%;
+    --gold: 45 95% 55%;
+    --gold-light: 45 100% 65%;
+    --gold-dark: 45 90% 45%;
+    --cream: 40 30% 98%;
+    --cream-dark: 40 25% 95%;
+    --teal: 180 70% 50%;
+    --teal-light: 180 60% 60%;
+    --orange: 25 90% 60%;
+    --orange-light: 25 95% 70%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+  
+  @keyframes gradient {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradient 6s ease infinite;
+  }
+}
