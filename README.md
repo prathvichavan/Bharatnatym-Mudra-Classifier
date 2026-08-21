@@ -52,7 +52,7 @@ The system uses a **dual-model architecture** with independent EfficientNetB0 cl
 
 > This work was presented at the **5th International Conference on Sentiment Analysis and Deep Learning (ICSADL-2026)**, IEEE.
 
----
+----
 
 ## ✨ Features
 
@@ -71,7 +71,7 @@ The system uses a **dual-model architecture** with independent EfficientNetB0 cl
 ### Frontend
 | Technology | Purpose |
 |---|---|
-| React 18 + TypeScript | Core UI framework |
+| React + TypeScript | Core UI framework |
 | Vite | Build tool & dev server |
 | Tailwind CSS + shadcn/ui | Styling & UI components |
 | Framer Motion | Animations |
